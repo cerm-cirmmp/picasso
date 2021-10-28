@@ -1,12 +1,6 @@
 """
-Proxy module for managing the several algorithms involved in the prediction
-
 ----------------------------------------------------------------------------------------
-Quindi in teoria interfacciandosi con questo modulo si ha accesso a tutti gli algoritmi,
-senza importarli uno ad uno
-
-anzi, qui potremmo definire una lista con tutti gli algoritmi disponibili,
-e a cui è possibile accedervi automaticamente per usarli e compararli
+Proxy module for managing the different algorithms involved in the prediction
 ----------------------------------------------------------------------------------------
 """
 import numpy as np
@@ -15,8 +9,8 @@ import math
 import pathlib
 import sys
 import copy
-from utils.peacks_testannotatedV2 import TestAnnotated as DataParser
-from data import data_info
+#from utils.peacks_testannotatedV2 import TestAnnotated as DataParser
+#from data import data_info
 
 from core.peak_manager_V2 import Spectra, PeakManager
 from core.peak_manager_V2 import distance_matrix as mdistance_matrix
