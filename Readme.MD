@@ -1,4 +1,4 @@
-##Automated NMR Chemical Shift Perturbation Assignment
+<h1>Automated NMR Chemical Shift Perturbation Assignment</h1>
 
 
 Example of simple peak assignement prediction
