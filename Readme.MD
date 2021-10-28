@@ -1,12 +1,14 @@
-<h1>Automated NMR Chemical Shift Perturbation Assignment</h1>
+<h2>Automated NMR Chemical Shift Perturbation Assignment</h2>
 
+Setup python 3.x dependency
+```
+pip install ortools==7.8.7959 pandas numpy scipy plotly matplotlib
+```
 
 Example of simple peak assignement prediction
 ```
 python estimateShifts.py --free test_in_free_assigned.csv  --with_ligand  test_in_ligand_unassigned.csv  --N_divisor 5 --alg RA          
 ```
-
-
 
 Peak assignement prediction with known target peaks
 ```
