@@ -1,5 +1,5 @@
-<h2>Automated NMR Chemical Shift Perturbation Assignment</h2>
-
+<h2>Automated NMR Chemical Shift Perturbation Assignment </h2>
+<h3>http://doi.org/10.1021/acs.jcim.1c00871</h3>
 Setup python 3.x dependency
 ```
 pip install ortools==7.8.7959 pandas numpy scipy plotly matplotlib
